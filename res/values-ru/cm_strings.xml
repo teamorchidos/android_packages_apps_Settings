@@ -71,4 +71,6 @@
     <string name="proximity_wake_summary">Проверка датчика приближения перед включением экрана</string>
     <string name="wake_when_plugged_or_unplugged_title">Включение при зарядке</string>
     <string name="wake_when_plugged_or_unplugged_summary">Включать экран при подключении или отключении источника питания</string>
+    <string name="face_auto_unlock_title">Автоматическая разблокировка лицом</string>
+    <string name="face_auto_unlock_summary">Убрать экран блокировки после разблокировки сканером лица</string>
 </resources>
