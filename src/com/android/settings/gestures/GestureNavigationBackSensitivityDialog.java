@@ -23,8 +23,10 @@ import android.content.Context;
 import android.content.om.IOverlayManager;
 import android.os.Bundle;
 import android.os.ServiceManager;
+import android.provider.Settings;
 import android.view.View;
 import android.widget.SeekBar;
+import android.widget.Switch;
 
 import com.android.settings.R;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
@@ -33,6 +35,9 @@ import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
  * Dialog to set the back gesture's sensitivity in Gesture navigation mode.
  */
 public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFragment {
+
+    private boolean mArrowSwitchChecked;
+
     private static final String TAG = "GestureNavigationBackSensitivityDialog";
     private static final String KEY_BACK_SENSITIVITY = "back_sensitivity";
     private static final String KEY_BACK_HEIGHT = "back_height";
@@ -69,6 +74,16 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         seekBarHeight.setProgress(getArguments().getInt(KEY_BACK_HEIGHT));
         final SeekBar seekBarHandleSize = view.findViewById(R.id.home_handle_seekbar);
         seekBarHandleSize.setProgress(getArguments().getInt(KEY_HOME_HANDLE_SIZE));
+        final Switch arrowSwitch = view.findViewById(R.id.back_arrow_gesture_switch);
+        mArrowSwitchChecked = Settings.Secure.getInt(getActivity().getContentResolver(),
+                Settings.Secure.SHOW_BACK_ARROW_GESTURE, 1) == 1;
+        arrowSwitch.setChecked(mArrowSwitchChecked);
+        arrowSwitch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mArrowSwitchChecked = arrowSwitch.isChecked() ? true : false;
+            }
+        });
         return new AlertDialog.Builder(getContext())
                 .setTitle(R.string.back_options_dialog_title)
                 .setMessage(R.string.back_sensitivity_dialog_message)
@@ -84,6 +99,8 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     SystemNavigationGestureSettings.setBackSensitivity(getActivity(),
                             getOverlayManager(), sensitivity);
                     SystemNavigationGestureSettings.setHomeHandleSize(getActivity(), length);
+                    Settings.Secure.putInt(getActivity().getContentResolver(),
+                            Settings.Secure.SHOW_BACK_ARROW_GESTURE, mArrowSwitchChecked ? 1 : 0);
                 })
                 .create();
     }
