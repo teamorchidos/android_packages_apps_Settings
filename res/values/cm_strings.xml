@@ -162,4 +162,8 @@
     <string name="back_height_high_label">Bottom</string>
     <string name="back_options_dialog_title">Options</string>
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Gesture bar size</string>
+    <string name="home_handle_low_label">Small (AOSP)</string>
+    <string name="home_handle_high_label">Long</string>
 </resources>
