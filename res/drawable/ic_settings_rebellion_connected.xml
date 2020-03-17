@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 Rebellion-OS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:fillColor="#4A9BF7"
+        android:fillType="evenOdd"
+        android:pathData="M19.6,2.25H4.42c-0.8,0-1.45,0.65-1.45,1.45v7.95h18.05V3.7C21.03,2.9,20.38,2.25,19.6,2.25L19.6,2.25z" />
+    <path
+        android:fillColor="#57A4FF"
+        android:fillType="evenOdd"
+        android:pathData="M12.01,2.25H4.42c-0.8,0-1.45,0.65-1.45,1.45v7.95h9.04V2.25z" />
+    <path
+        android:fillColor="#A7A9AC"
+        android:fillType="evenOdd"
+        android:pathData="M21.03,11.64v1.45h-2.16c-0.8,0-1.45,0.65-1.45,1.45H10.2v-2.89H21.03z" />
+    <path
+        android:fillColor="#9BC9FF"
+        android:fillType="evenOdd"
+        android:pathData="M2.97,10.2h5.79c0.8,0,1.45,0.65,1.45,1.45v8.68c0,0.78-0.65,1.43-1.45,1.43H2.97c-0.8,0-1.45-0.65-1.45-1.43 v-8.68C1.53,10.84,2.17,10.2,2.97,10.2L2.97,10.2z" />
+    <path
+        android:fillColor="#6D6E71"
+        android:fillType="evenOdd"
+        android:pathData="M 10.2 18.14 L 15.26 18.14 L 13.81 14.54 L 10.2 14.54 Z" />
+    <path
+        android:fillColor="#6D6E71"
+        android:fillType="evenOdd"
+        android:pathData="M17.42,19.59v0.73c0,0.78,0.65,1.43,1.45,1.43h2.16c0.8,0,1.45-0.65,1.45-1.43v-0.73H17.42z" />
+    <path
+        android:fillColor="#FFCD00"
+        android:fillType="evenOdd"
+        android:pathData="M21.03,13.09h-2.16c-0.8,0-1.45,0.65-1.45,1.45v5.05h5.05v-5.05C22.47,13.74,21.83,13.09,21.03,13.09 L21.03,13.09z" />
+    <path
+        android:fillColor="#8BBDF7"
+        android:fillType="evenOdd"
+        android:pathData="M5.87,10.2h2.89c0.8,0,1.45,0.65,1.45,1.45v8.68c0,0.78-0.65,1.43-1.45,1.43H5.87V10.2z" />
+    <path
+        android:fillColor="#FF3051"
+        android:fillType="evenOdd"
+        android:pathData="M12.72,13.09c0-0.39-0.32-0.71-0.71-0.71c-0.41,0-0.73,0.32-0.73,0.71c0,0.39,0.32,0.71,0.73,0.71 C12.4,13.8,12.72,13.48,12.72,13.09L12.72,13.09z" />
+    <path
+        android:fillColor="#FF3051"
+        android:fillType="evenOdd"
+        android:pathData="M6.58,19.95c0-0.39-0.32-0.71-0.71-0.71c-0.41,0-0.73,0.32-0.73,0.71c0,0.41,0.32,0.73,0.73,0.73 C6.26,20.68,6.58,20.35,6.58,19.95L6.58,19.95z" />
+    <path
+        android:fillColor="#F1F2F2"
+        android:fillType="evenOdd"
+        android:pathData="M18.15,4.05h1.07v1.09c0,0.2,0.17,0.36,0.37,0.36c0.19,0,0.36-0.15,0.36-0.36V4.05c0-0.39-0.32-0.71-0.73-0.71 h-1.07c-0.2,0-0.37,0.15-0.37,0.36S17.95,4.05,18.15,4.05L18.15,4.05z" />
+    <path
+        android:fillColor="#F1F2F2"
+        android:fillType="evenOdd"
+        android:pathData="M20.31,20.32H19.6c-0.2,0-0.37,0.15-0.37,0.36s0.17,0.36,0.37,0.36h0.71c0.2,0,0.36-0.15,0.36-0.36 S20.52,20.32,20.31,20.32L20.31,20.32z" />
+    <path
+        android:fillColor="#FFB700"
+        android:fillType="evenOdd"
+        android:pathData="M21.03,13.09h-1.07v6.5h2.52v-5.05C22.47,13.74,21.83,13.09,21.03,13.09L21.03,13.09z" />
+    <path
+        android:fillColor="#F1F2F2"
+        android:fillType="evenOdd"
+        android:pathData="M20.31,13.8H19.6c-0.2,0-0.37,0.17-0.37,0.37c0,0.19,0.17,0.36,0.37,0.36h0.71c0.2,0,0.36-0.17,0.36-0.36 C20.67,13.97,20.52,13.8,20.31,13.8L20.31,13.8z" />
+    <path
+        android:fillColor="#F1F2F2"
+        android:fillType="evenOdd"
+        android:pathData="M5.51,11.64h0.71c0.2,0,0.36-0.15,0.36-0.36c0-0.2-0.15-0.36-0.36-0.36H5.51c-0.2,0-0.37,0.15-0.37,0.36 C5.13,11.49,5.3,11.64,5.51,11.64L5.51,11.64z" />
+    <path
+        android:fillColor="#006DF0"
+        android:fillType="evenOdd"
+        android:pathData="M8.81,6.64L8.81,6.64c0.1,0,0.19-0.02,0.26-0.09l0.09-0.09c0.8-0.66,1.8-1.04,2.86-1.04 c1.04,0,2.04,0.37,2.84,1.04l0.1,0.09c0.07,0.07,0.15,0.09,0.24,0.09c0.2,0,0.36-0.15,0.36-0.36c0-0.1-0.03-0.19-0.12-0.26 l-0.1-0.1c-0.94-0.78-2.11-1.21-3.32-1.21c-1.23,0-2.4,0.43-3.34,1.21l-0.1,0.1C8.5,6.1,8.45,6.18,8.45,6.28 C8.45,6.49,8.62,6.64,8.81,6.64L8.81,6.64L8.81,6.64z" />
+    <path
+        android:fillColor="#006DF0"
+        android:fillType="evenOdd"
+        android:pathData="M10.53,8.14c-0.09,0.07-0.12,0.17-0.12,0.27c0,0.2,0.15,0.37,0.36,0.37c0.09,0,0.17-0.03,0.22-0.09 c0.29-0.24,0.65-0.37,1.02-0.37c0.36,0,0.71,0.14,1,0.37c0.07,0.05,0.15,0.09,0.24,0.09c0.19,0,0.36-0.17,0.36-0.37 c0-0.1-0.05-0.2-0.14-0.27c-0.41-0.34-0.94-0.53-1.46-0.53C11.46,7.61,10.94,7.8,10.53,8.14L10.53,8.14z" />
+    <path
+        android:fillColor="#006DF0"
+        android:fillType="evenOdd"
+        android:pathData="M14.42,7.05c-0.68-0.56-1.53-0.88-2.42-0.88c-0.88,0-1.75,0.32-2.43,0.88c-0.07,0.07-0.1,0.17-0.1,0.26 c0,0.2,0.17,0.37,0.36,0.37c0.09,0,0.17-0.03,0.24-0.09c0.54-0.46,1.23-0.71,1.94-0.71c0.7,0,1.4,0.26,1.94,0.71 c0.05,0.05,0.14,0.09,0.22,0.09c0.2,0,0.36-0.17,0.36-0.37C14.53,7.22,14.49,7.12,14.42,7.05L14.42,7.05z" />
+</vector>

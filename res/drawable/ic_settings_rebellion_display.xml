@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 Rebellion-OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+         http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:fillColor="#9BC9FF"
+        android:pathData="M23.11,12.9v-1.8h-3.34c-0.17-1.49-0.76-2.85-1.64-3.96l2.36-2.36l-1.27-1.27l-2.36,2.36 c-1.11-0.89-2.48-1.47-3.96-1.64V0.89h-1.8v3.34C11.4,4.19,11.7,4.18,12,4.18v15.65c-0.3,0-0.6-0.02-0.9-0.05v3.34h1.8v-3.34 c1.49-0.17,2.85-0.76,3.96-1.64l2.36,2.36l1.27-1.27l-2.36-2.36c0.89-1.11,1.47-2.48,1.64-3.96H23.11z" />
+    <path
+        android:fillColor="#FFCD00"
+        android:pathData="M12,4.18c-0.3,0-0.6,0.02-0.9,0.05C9.62,4.4,8.26,4.99,7.14,5.87L4.78,3.51L3.51,4.78l2.36,2.36 C4.99,8.26,4.4,9.62,4.23,11.1H0.89v1.8h3.34c0.17,1.49,0.76,2.85,1.64,3.96l-2.36,2.36l1.27,1.27l2.36-2.36 c1.11,0.89,2.48,1.47,3.96,1.64c0.29,0.03,0.59,0.05,0.9,0.05L12,4.18L12,4.18z" />
+</vector>
