@@ -181,7 +181,7 @@
         <activity
             android:name=".Settings$NetworkDashboardActivity"
             android:label="@string/network_dashboard_title"
-            android:icon="@drawable/ic_homepage_network"
+            android:icon="@drawable/ic_settings_rebellion_network"
             android:parentActivityName="Settings">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.WIRELESS_SETTINGS" />
@@ -216,7 +216,7 @@
         <activity
             android:name=".Settings$ConnectedDeviceDashboardActivity"
             android:label="@string/connected_devices_dashboard_title"
-            android:icon="@drawable/ic_homepage_connected_device"
+            android:icon="@drawable/ic_settings_rebellion_connected"
             android:parentActivityName="Settings">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.BLUETOOTH_SETTINGS" />
@@ -900,7 +900,7 @@
         <activity
             android:name="Settings$DisplaySettingsActivity"
             android:label="@string/display_settings"
-            android:icon="@drawable/ic_homepage_display"
+            android:icon="@drawable/ic_settings_rebellion_battery"
             android:parentActivityName="Settings">
             <intent-filter android:priority="1">
                 <action android:name="com.android.settings.DISPLAY_SETTINGS" />
@@ -976,7 +976,7 @@
 
         <activity android:name=".Settings$MyDeviceInfoActivity"
                   android:label="@string/about_settings"
-                  android:icon="@drawable/ic_homepage_about">
+                  android:icon="@drawable/ic_settings_rebellion_aboutphone">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.DEVICE_INFO_SETTINGS" />
                 <action android:name="android.settings.DEVICE_NAME" />
@@ -1264,7 +1264,7 @@
         <activity
             android:name=".Settings$SecurityDashboardActivity"
             android:label="@string/security_settings_title"
-            android:icon="@drawable/ic_homepage_security"
+            android:icon="@drawable/ic_settings_rebellion_lockscreen"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:parentActivityName="Settings">
             <intent-filter android:priority="1">
@@ -1438,7 +1438,7 @@
         <activity
             android:name="Settings$AccessibilitySettingsActivity"
             android:label="@string/accessibility_settings"
-            android:icon="@drawable/ic_homepage_accessibility"
+            android:icon="@drawable/ic_settings_rebellion_accessibility"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:parentActivityName="Settings">
             <intent-filter android:priority="1">
@@ -1821,7 +1821,7 @@
         <activity
             android:name=".Settings$StorageDashboardActivity"
             android:label="@string/storage_settings"
-            android:icon="@drawable/ic_homepage_storage"
+            android:icon="@drawable/ic_settings_rebellion_storage"
             android:parentActivityName="Settings">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.INTERNAL_STORAGE_SETTINGS" />
@@ -2574,7 +2574,7 @@
         <activity
             android:name="Settings$SoundSettingsActivity"
             android:label="@string/sound_settings"
-            android:icon="@drawable/ic_homepage_sound"
+            android:icon="@drawable/ic_settings_rebellion_sound"
             android:exported="true"
             android:parentActivityName="Settings">
             <intent-filter android:priority="1">
@@ -2972,7 +2972,7 @@
         <activity
             android:name=".Settings$AppAndNotificationDashboardActivity"
             android:label="@string/app_and_notification_dashboard_title"
-            android:icon="@drawable/ic_homepage_apps"
+            android:icon="@drawable/ic_settings_rebellion_apps"
             android:parentActivityName="Settings"
             android:exported="true">
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
@@ -3001,7 +3001,7 @@
         <activity
             android:name=".Settings$SystemDashboardActivity"
             android:label="@string/header_category_system"
-            android:icon="@drawable/ic_homepage_system_dashboard"
+            android:icon="@drawable/ic_settings_rebellion_system"
             android:parentActivityName="Settings">
             <intent-filter android:priority="70">
                 <action android:name="android.intent.action.MAIN" />

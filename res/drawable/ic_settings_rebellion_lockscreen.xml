@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 Rebellion-OS
+    
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+   
+          http://www.apache.org/licenses/LICENSE-2.0
+   
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:fillColor="#DFDFE1"
+        android:fillType="evenOdd"
+        android:pathData="M17.99,11.3h-1.71V8.44c0-2.35-1.93-4.28-4.28-4.28S7.72,6.08,7.72,8.44v2.86H6.01V8.44 c0-3.3,2.69-5.99,5.99-5.99s5.99,2.69,5.99,5.99V11.3z" />
+    <path
+        android:fillColor="#CFCDD2"
+        android:fillType="evenOdd"
+        android:pathData="M12,2.45v1.71c2.35,0,4.28,1.93,4.28,4.28v2.86h1.71V8.44C17.99,5.14,15.3,2.45,12,2.45L12,2.45z" />
+    <path
+        android:fillColor="#FFEA8A"
+        android:fillType="evenOdd"
+        android:pathData="M 5.15 10.72 H 18.85 V 21.56 H 5.15 V 10.72 Z" />
+    <path
+        android:fillColor="#FFDB2D"
+        android:fillType="evenOdd"
+        android:pathData="M 12 10.72 H 18.85 V 21.56 H 12 V 10.72 Z" />
+    <path
+        android:fillColor="#88888F"
+        android:fillType="evenOdd"
+        android:pathData="M 9.14 15.29 H 14.86 V 17 H 9.14 V 15.29 Z" />
+    <path
+        android:fillColor="#56545A"
+        android:fillType="evenOdd"
+        android:pathData="M 12 15.29 H 14.86 V 17 H 12 V 15.29 Z" />
+</vector>
