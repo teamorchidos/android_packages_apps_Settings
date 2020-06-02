@@ -219,8 +219,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
         if (info.getKey() == KEY_SYSTEM_NAV_GESTURAL) {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_SETTING);
             p.setExtraWidgetOnClickListener((v) -> GestureNavigationBackSensitivityDialog
-                    .show(this, getBackSensitivity(getContext(), mOverlayManager),
-                    getBackHeight(getContext()), getHomeHandleSize(getContext())));
+                    .show(this, getBackSensitivity(getContext(), mOverlayManager)));
         } else {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_GONE);
         }
@@ -323,34 +322,6 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
             BACK_GESTURE_OVERLAYS_TO_USE = BACK_GESTURE_INSET_OVERLAYS_NO_PILL;
         else
             BACK_GESTURE_OVERLAYS_TO_USE = BACK_GESTURE_INSET_OVERLAYS;
-    }
-    static void setBackHeight(Context context, int height) {
-        // height cant be range 0 - 3
-        // 0 means full height
-        // 1 measns half of the screen
-        // 2 means lower third of the screen
-        // 3 means lower sixth of the screen
-        Settings.System.putInt(context.getContentResolver(),
-                Settings.System.BACK_GESTURE_HEIGHT, height);
-    }
-
-    static int getBackHeight(Context context) {
-        return Settings.System.getInt(context.getContentResolver(),
-                Settings.System.BACK_GESTURE_HEIGHT, 0);
-    }
-
-    static void setHomeHandleSize(Context context, int length) {
-        // length cant be range 0 - 2
-        // 2 means long
-        // 1 measns middle
-        // 0 means aosp size
-        Settings.System.putInt(context.getContentResolver(),
-                Settings.System.NAVIGATION_HANDLE_WIDTH, length);
-    }
-
-    static int getHomeHandleSize(Context context) {
-        return Settings.System.getInt(context.getContentResolver(),
-                Settings.System.NAVIGATION_HANDLE_WIDTH, 0);
     }
 
     @VisibleForTesting
