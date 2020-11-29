@@ -23,6 +23,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+import android.os.Vibrator;
 import android.os.UserHandle;
 import android.preference.SeekBarVolumizer;
 import android.provider.SearchIndexableResource;
@@ -76,10 +77,11 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
             }
         }
     };
-
+	
     private RingtonePreference mRequestPreference;
     private UpdatableListPreferenceDialogFragment mDialogFragment;
     private String mHfpOutputControllerKey;
+	private Vibrator mVibrator;
 
     @Override
     public int getMetricsCategory() {
@@ -99,6 +101,12 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
                     (UpdatableListPreferenceDialogFragment) getFragmentManager()
                             .findFragmentByTag(TAG);
             mDialogFragment = dialogFragment;
+        }
+		
+		mVibrator = (Vibrator) this.getSystemService(Context.VIBRATOR_SERVICE);
+		if (mVibrator != null && !mVibrator.hasVibrator()) {
+            final String VIBRATION_PREFERENCES_FRAGMENT= "vibration_preferences_fragment";
+			this.removePreference(VIBRATION_PREFERENCES_FRAGMENT);
         }
     }
 
