@@ -21,7 +21,13 @@
     android:key="firmware_version_screen"
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
-
+  
+   <!-- Orchid logo -->
+    <PreferenceScreen
+        android:key="orchid_logo"
+        android:enabled="false"
+        android:layout="@layout/orchid_logo" /
+                        
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
