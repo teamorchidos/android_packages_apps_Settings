@@ -39,7 +39,7 @@
             android:key="advanced_reboot"
             android:title="@string/advanced_reboot_title"
             android:summary="@string/advanced_reboot_summary"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
         <Preference
             android:key="system_server_heap_dump"
@@ -109,10 +109,10 @@
             android:title="@string/color_temperature"
             android:summary="@string/color_temperature_desc" />
 
-        <SwitchPreference
+        <!--SwitchPreference
             android:key="ota_disable_automatic_update"
             android:title="@string/ota_disable_automatic_update"
-            android:summary="@string/ota_disable_automatic_update_summary" />
+            android:summary="@string/ota_disable_automatic_update_summary" /-->
 
         <Preference
             android:key="demo_mode"
@@ -435,10 +435,6 @@
             android:title="@string/overlay_display_devices_title"
             android:entries="@array/overlay_display_devices_entries"
             android:entryValues="@array/overlay_display_devices_values" />
-
-        <com.android.settings.display.DensityPreference
-            android:key="density"
-            android:title="@string/developer_smallest_width" />
 
         <ListPreference
             android:key="display_cutout_emulation"

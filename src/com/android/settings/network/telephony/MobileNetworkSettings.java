@@ -142,7 +142,6 @@ public class MobileNetworkSettings extends RestrictedDashboardFragment {
             use(DisabledSubscriptionController.class).init(getLifecycle(), mSubId);
             use(DeleteSimProfilePreferenceController.class).init(mSubId, this,
                     REQUEST_CODE_DELETE_SUBSCRIPTION);
-            use(DisableSimFooterPreferenceController.class).init(mSubId);
         }
         use(MobileDataPreferenceController.class).init(getFragmentManager(), mSubId);
         use(RoamingPreferenceController.class).init(getFragmentManager(), mSubId);
@@ -155,7 +154,8 @@ public class MobileNetworkSettings extends RestrictedDashboardFragment {
         if (!FeatureFlagPersistent.isEnabled(getContext(), FeatureFlags.NETWORK_INTERNET_V2)) {
             use(EuiccPreferenceController.class).init(mSubId);
         }
-        use(WifiCallingPreferenceController.class).init(mSubId);
+        final WifiCallingPreferenceController wifiCallingPreferenceController =
+                use(WifiCallingPreferenceController.class).init(mSubId);
 
         final OpenNetworkSelectPagePreferenceController openNetworkSelectPagePreferenceController =
                 use(OpenNetworkSelectPagePreferenceController.class).init(mSubId);
@@ -173,6 +173,8 @@ public class MobileNetworkSettings extends RestrictedDashboardFragment {
 
         final VideoCallingPreferenceController videoCallingPreferenceController =
                 use(VideoCallingPreferenceController.class).init(mSubId);
+        use(CallingPreferenceCategoryController.class).setChildren(
+                Arrays.asList(wifiCallingPreferenceController, videoCallingPreferenceController));
         use(Enhanced4gLtePreferenceController.class).init(mSubId)
                 .addListener(videoCallingPreferenceController);
     }

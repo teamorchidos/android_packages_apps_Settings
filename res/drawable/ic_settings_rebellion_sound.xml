@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 Rebellion-OS
+   
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+   
+        http://www.apache.org/licenses/LICENSE-2.0
+    
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:fillColor="#757575"
+        android:fillType="evenOdd"
+        android:pathData="M 2.54 5.16 H 21.45 V 6.75 H 2.54 V 5.16 Z" />
+    <path
+        android:fillColor="#757575"
+        android:fillType="evenOdd"
+        android:pathData="M 2.54 11.2 H 21.45 V 12.79 H 2.54 V 11.2 Z" />
+    <path
+        android:fillColor="#757575"
+        android:fillType="evenOdd"
+        android:pathData="M 2.54 17.24 H 21.45 V 18.83 H 2.54 V 17.24 Z" />
+    <path
+        android:fillColor="#616161"
+        android:fillType="evenOdd"
+        android:pathData="M 2.54 5.16 H 7.47 V 6.75 H 2.54 V 5.16 Z" />
+    <path
+        android:fillColor="#616161"
+        android:fillType="evenOdd"
+        android:pathData="M 2.54 11.2 H 12 V 12.79 H 2.54 V 11.2 Z" />
+    <path
+        android:fillColor="#616161"
+        android:fillType="evenOdd"
+        android:pathData="M 2.54 17.24 H 7.47 V 18.83 H 2.54 V 17.24 Z" />
+    <path
+        android:fillColor="#7986CB"
+        android:fillType="evenOdd"
+        android:pathData="M7.48,8.29c1.29,0,2.33-1.04,2.33-2.33c0-1.29-1.04-2.33-2.33-2.33S5.15,4.68,5.15,5.96 C5.15,7.25,6.19,8.29,7.48,8.29L7.48,8.29z" />
+    <path
+        android:fillColor="#7986CB"
+        android:fillType="evenOdd"
+        android:pathData="M12,14.33c1.29,0,2.33-1.04,2.33-2.33c0-1.29-1.04-2.33-2.33-2.33S9.67,10.71,9.67,12 C9.67,13.29,10.71,14.33,12,14.33L12,14.33z" />
+    <path
+        android:fillColor="#7986CB"
+        android:fillType="evenOdd"
+        android:pathData="M7.48,20.36c1.29,0,2.33-1.04,2.33-2.33c0-1.29-1.04-2.33-2.33-2.33s-2.33,1.04-2.33,2.33 C5.15,19.32,6.19,20.36,7.48,20.36L7.48,20.36z" />
+    <path
+        android:fillColor="#9FA8DA"
+        android:fillType="evenOdd"
+        android:pathData="M7.48,3.64c1.29,0,2.33,1.04,2.33,2.33c0,1.29-1.04,2.33-2.33,2.33V3.64z" />
+    <path
+        android:fillColor="#9FA8DA"
+        android:fillType="evenOdd"
+        android:pathData="M12,9.67c1.29,0,2.33,1.04,2.33,2.33c0,1.29-1.04,2.33-2.33,2.33V9.67z" />
+    <path
+        android:fillColor="#9FA8DA"
+        android:fillType="evenOdd"
+        android:pathData="M7.48,15.71c1.29,0,2.33,1.04,2.33,2.33c0,1.29-1.04,2.33-2.33,2.33V15.71z" />
+</vector>
