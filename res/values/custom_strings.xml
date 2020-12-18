@@ -16,29 +16,6 @@
     <string name="config_center_title">Configuration Center</string>
     <string name="config_center_dashboard_summary">Home of customizations</string>
 
-    <!-- Magma Settings -->
-    <string name="magma_settings_title">Magma settings</string>
-    <string name="magma_settings_summary">Probably something will be there</string>
-
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-
-    <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot shutter sound</string>
-
-    <!-- Adb over Network -->
-    <string name="adb_over_network">ADB over network</string>
-    <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi-Fi, USB networks). This setting is reset on reboot</string>
-    <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks, including GSM data network!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
-    <string name="adb_over_network_warning_title">Allow ADB over network?</string>
-
-    <!-- SELinux status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
-
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
